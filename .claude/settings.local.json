@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell.exe -NoProfile -Command \"Get-ChildItem -Path 'D:\\\\codes_project\\\\portofolio_website' -Recurse | Select-Object -ExpandProperty FullName\")"
+      "Bash(powershell.exe -NoProfile -Command \"Get-ChildItem -Path 'D:\\\\codes_project\\\\portofolio_website' -Recurse | Select-Object -ExpandProperty FullName\")",
+      "Bash(mkdir -p \"d:\\\\codes_project\\\\portofolio_website\\\\lib\")",
+      "Bash(mkdir -p \"d:\\\\codes_project\\\\portofolio_website\\\\components\")",
+      "Bash(npm run:*)"
     ]
   }
 }

@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ── Tailwind v4: class-based dark mode for next-themes ── */
+@variant dark (&:where(.dark, .dark *));
 
+/* ── Font family tokens (set by next/font/google in layout.tsx) ── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-lora), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Design tokens ── */
+:root {
+  --bg:              #ffffff;
+  --bg-secondary:    #f8f7f5;
+  --text:            #1a1a1a;
+  --text-muted:      #4a4a4a;
+  --text-faint:      #767676;
+  --rule:            #e5e5e5;
+  --accent:          #2563eb;
+  --nav-height:      64px;
+}
+
+.dark {
+  --bg:              #0f0f0f;
+  --bg-secondary:    #181818;
+  --text:            #f0ede8;
+  --text-muted:      #c0bdb8;
+  --text-faint:      #767676;
+  --rule:            #2a2a2a;
+  --accent:          #60a5fa;
+}
+
+/* ── Base ── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-height);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* ── Utility classes used across components ── */
+.text-token        { color: var(--text); }
+.text-muted-token  { color: var(--text-muted); }
+.text-faint-token  { color: var(--text-faint); }
+.bg-token          { background-color: var(--bg); }
+.bg-secondary-token{ background-color: var(--bg-secondary); }
+.border-rule       { border-color: var(--rule); }
+.accent-token      { color: var(--accent); }

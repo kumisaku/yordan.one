@@ -25,9 +25,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Portfolio",
+  title: "JORDAN",
   description:
-    "Founder & entrepreneur building products at the intersection of technology and design.",
+    "founder & entrepreneur.",
 };
 
 export default function RootLayout({

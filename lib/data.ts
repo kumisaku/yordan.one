@@ -88,7 +88,7 @@ export const projects: Project[] = [
     partOfSpeech: "education · local",
     year: "2024",
     definition:
-      "ran a local coding course for 3 months earning $100/month. taught programming fundamentals to beginners in the local community.",
+      "ran a local coding course for 3 months. taught programming fundamentals to beginners in the local community.",
     tags: ["education", "coding", "local"],
   },
   {

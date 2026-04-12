@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -NoProfile -Command \"Get-ChildItem -Path 'D:\\\\codes_project\\\\portofolio_website' -Recurse | Select-Object -ExpandProperty FullName\")"
+    ]
+  }
+}

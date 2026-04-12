@@ -51,7 +51,7 @@ export const projects: Project[] = [
     partOfSpeech: "content · media",
     year: "2025 – present",
     definition:
-      "built and managed 4 YouTube channels totaling 250M+ views, 2 faceless, gaming and main. handles content strategy, scripting, and production end-to-end across all channels.",
+      "built and managed 4 YouTube channels generating 250M+ views, 2 faceless, gaming and main. handles content strategy, scripting, and production end-to-end across all channels.",
     tags: ["brand", "content", "media"],
     definitionLinks: [{ text: "gaming", href: "https://www.youtube.com/@RealPinpin" }],
   },

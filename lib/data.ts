@@ -53,7 +53,7 @@ export const projects: Project[] = [
     definition:
       "built and managed 4 youtube channels generating 250M+ views, 2 faceless, gaming and main. handles content strategy, scripting, and production end-to-end across all channels.",
     tags: ["brand", "content", "media"],
-    definitionLinks: [{ text: "gaming", href: "https://www.youtube.com/@RealPinpin" }],
+    definitionLinks: [{ text: "gaming", href: "" }],
   },
   {
     id: "project-clipping",

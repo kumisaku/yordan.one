@@ -40,7 +40,7 @@ export const bioData: BioData = {
   partOfSpeech: "/ˈdʒɔːrdən ˈælvɪn/",
   entryNumber: "001",
   definition:
-    "i’m 18, from indonesia. currently spending most of my time on content, growth, and digital businesses. built youtube brands to 250M+ total views, do clipping, run local coding courses, freelance design, editing, and affiliate marketing. also worked with roblox games totaling 80M+ visits. started making money online in 4th grade. i'm a fan of the process, love building something great.",
+    "i’m 18. currently spending most of my time on content, growth, and digital businesses. built youtube brands to 250M+ total views, do clipping, run local coding courses, freelance design, editing, and affiliate marketing. also worked with roblox games totaling 80M+ visits. started making money online in 4th grade. i'm a fan of the process, love building something great.",
   seeAlso: [{ label: "projects", href: "#projects" }],
 };
 

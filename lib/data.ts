@@ -40,7 +40,7 @@ export const bioData: BioData = {
   partOfSpeech: "/ˈdʒɔːrdən ˈælvɪn/",
   entryNumber: "001",
   definition:
-    "i’m 18. currently spending most of my time on content, growth, and digital businesses. built youtube brands to 250M+ total views, do clipping, run local coding courses, freelance design, editing, and affiliate marketing. also worked with roblox games totaling 80M+ visits. started making money online in 4th grade. i'm a fan of the process, love building something great.",
+    "i’m 18. currently spending most of my time on content, growth, and digital businesses. built youtube brands longform and shorts, do clipping, run local coding courses, freelance design, editing, and affiliate marketing. also worked with roblox games. started making money online in 4th grade. i'm a fan of the process, love building something great.",
   seeAlso: [{ label: "projects", href: "#projects" }],
 };
 
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     partOfSpeech: "game dev · platform",
     year: "2020 – present",
     definition:
-      "worked on roblox games accumulating a combined 80M+ visits. game design, monetization, and community growth.",
+      "game design, monetization, and community growth.",
     tags: ["development", "games", "platform"],
   },
   {
